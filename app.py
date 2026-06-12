@@ -3,7 +3,7 @@ from huggingface_hub import InferenceClient
 from PIL import Image
 import datetime
 
-client=InferenceClient(token="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")
+client=InferenceClient(token=Huggingface_API)
 MODEL="stabilityai/stable-diffusion-xl-base-1.0"
 
 st.set_page_config(page_title="Myimage Generator")
